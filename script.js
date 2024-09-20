@@ -52,7 +52,7 @@ function displayBlogs(articles) {
         const blogCard = document.createElement("div")
         blogCard.classList.add("blog-card")
         const img = document.createElement("img")
-        img.src = article.urlToImage || "default-image.jpg"; // Fallback if no image
+        img.src = article.urlToImage || "default-image.jpeg"; // Fallback if no image
         img.alt = article.title;
         const title = document.createElement("h2");
         const TruncatedTitle = article.title.length>30? article.title.slice(0,30) + "....":article.title;
