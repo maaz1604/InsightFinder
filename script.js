@@ -5,8 +5,6 @@ const searchField = document.getElementById("search-input");
 
 const searchButton = document.getElementById("search-button");
 
-
-
 async function fetchRandomNews() {
     try {
         const apiUrl = `https://newsapi.org/v2/top-headlines?sources=techcrunch&pageSize=10&apiKey=3893ec0643c149c7b5485ea81b6aedc7`;
